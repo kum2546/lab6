@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>คำนวณค่าน้ำมัน</title>
+  
+</head>
+<body>
+  <div class="calculator">
+    <h2>คำนวณค่าน้ำมัน</h2>
+    <label for="distance">ระยะทาง (กิโลเมตร):</label>
+    <input type="number" id="distance" placeholder="ระยะทาง (กม.)">
+
+    <label for="fuelConsumption">อัตราสิ้นเปลืองน้ำมัน (ลิตร/100 กม.):</label>
+    <input type="number" id="fuelConsumption" placeholder="ลิตร/100 กม.">
+
+    <label for="fuelPrice">ราคาน้ำมัน (บาท/ลิตร):</label>
+    <input type="number" id="fuelPrice" placeholder="บาท/ลิตร">
+
+    <button onclick="calculateFuelCost()">คำนวณ</button>
+    <div class="result" id="result"></div>
+  </div>
+
+</body>
+</html>
